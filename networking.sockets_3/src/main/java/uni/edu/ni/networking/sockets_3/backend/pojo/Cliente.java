@@ -1,6 +1,5 @@
 package uni.edu.ni.networking.sockets_3.backend.pojo;
 
-import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
