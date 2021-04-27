@@ -7,6 +7,7 @@ package uni.edu.ni.networking.sockets_3.view;
 
 import java.util.Observable;
 import java.util.Observer;
+import javax.swing.JOptionPane;
 import uni.edu.ni.networking.sockets_3.backend.pojo.Cliente;
 import uni.edu.ni.networking.sockets_3.backend.pojo.Servidor;
 
@@ -21,7 +22,7 @@ public class Frm1 extends javax.swing.JFrame implements Observer{
      */
     public Frm1() {
         initComponents();
-        Servidor s = new Servidor(5001);
+        Servidor s = new Servidor(5003);
         s.addObserver(this);
         Thread t = new Thread(s);
         t.start();
@@ -88,11 +89,12 @@ public class Frm1 extends javax.swing.JFrame implements Observer{
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnEnviarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviarActionPerformed
-
+    
         String mensaje = "1: " + this.txtTexto.getText() + "\n";
+        this.txtTexto.setText("");
         this.atxtTexto.append(mensaje);
         
-        Cliente c = new Cliente(5001, mensaje, "La otra ip");
+        Cliente c = new Cliente(5004, mensaje, "192.168.0.9");
         Thread t = new Thread(c);
         t.start();
     }//GEN-LAST:event_btnEnviarActionPerformed

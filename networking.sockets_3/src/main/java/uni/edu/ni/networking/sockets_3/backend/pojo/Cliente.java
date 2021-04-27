@@ -12,7 +12,7 @@ public class Cliente implements Runnable{
     private String mensaje;
     private String host;
 
-    public Cliente(int puerto, String mensaje, String Host) {
+    public Cliente(int puerto, String mensaje, String host) {
         this.puerto = puerto;
         this.mensaje = mensaje;
         this.host = host;
