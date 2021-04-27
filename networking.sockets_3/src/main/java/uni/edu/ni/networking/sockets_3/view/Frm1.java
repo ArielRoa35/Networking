@@ -7,7 +7,6 @@ package uni.edu.ni.networking.sockets_3.view;
 
 import java.util.Observable;
 import java.util.Observer;
-import javax.swing.JOptionPane;
 import uni.edu.ni.networking.sockets_3.backend.pojo.Cliente;
 import uni.edu.ni.networking.sockets_3.backend.pojo.Servidor;
 
