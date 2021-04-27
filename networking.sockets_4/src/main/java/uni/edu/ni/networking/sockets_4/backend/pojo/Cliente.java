@@ -1,4 +1,4 @@
-package uni.edu.ni.networking.sockets_3.backend.pojo;
+package uni.edu.ni.networking.sockets_4.backend.pojo;
 
 import java.io.DataOutputStream;
 import java.io.IOException;

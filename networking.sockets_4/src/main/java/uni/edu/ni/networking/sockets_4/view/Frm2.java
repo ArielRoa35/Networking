@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package uni.edu.ni.networking.sockets_3.view;
+package uni.edu.ni.networking.sockets_4.view;
 
 import java.util.Observable;
 import java.util.Observer;
-import uni.edu.ni.networking.sockets_3.backend.pojo.Cliente;
-import uni.edu.ni.networking.sockets_3.backend.pojo.Servidor;
+import uni.edu.ni.networking.sockets_4.backend.pojo.Cliente;
+import uni.edu.ni.networking.sockets_4.backend.pojo.Servidor;
 
 /**
  *
@@ -125,6 +125,8 @@ public class Frm2 extends javax.swing.JFrame implements Observer{
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Frm2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
